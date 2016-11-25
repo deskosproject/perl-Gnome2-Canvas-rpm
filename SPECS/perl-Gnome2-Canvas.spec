@@ -1,6 +1,6 @@
 Name:           perl-Gnome2-Canvas
 Version:        1.002
-Release:        24%{?dist}
+Release:        25%{?dist}
 Summary:        An engine for structured graphics in Gnome2
 
 Group:          Development/Libraries
@@ -64,6 +64,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Nov 25 2016 Ricardo Arguello <rarguello@deskosproject.org> - 1.002-25
+- Rebuilt for DeskOS
+
 * Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.002-24
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
 
